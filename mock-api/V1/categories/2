@@ -1,7 +1,9 @@
 {
   "filters": [
       {
-          "gender": "Gênero"
+          "gender": "Gênero",
+          "type": "Tipo",
+          "color": "Cor"
       }
   ],
   "items": [
@@ -10,12 +12,14 @@
       "sku": "sku-10",
       "path": "calca-social",
       "name": "Calça Social",
-      "image": "media/pants-1.jpg",
+      "image": "https://i.imgur.com/m8scUs9.jpg",
       "price": 39.9,
       "specialPrice": 29.9,
       "filter": [
         {
-          "gender": "Masculina"
+          "gender": "Masculina",
+          "type": "Social",
+          "color": "Bege"
         }
       ]
     },
@@ -24,11 +28,13 @@
       "sku": "sku-11",
       "path": "calca-feminina",
       "name": "Calça Feminina",
-      "image": "media/pants-2.jpg",
+      "image": "https://i.imgur.com/NuXLXBC.jpg",
       "price": 24.15,
       "filter": [
           {
-            "gender": "Feminina"
+            "gender": "Feminina",
+            "type": "Corrida",
+            "color": "Cinza"
           }
       ]
     },
@@ -37,11 +43,13 @@
       "sku": "sku-12",
       "path": "calca-la-feminina",
       "name": "Calça de Lã Feminina",
-      "image": "media/pants-3.jpg",
+      "image": "https://i.imgur.com/3Yy9RHc.jpg",
       "price": 61.49,
       "filter": [
           {
-            "gender": "Feminina"
+            "gender": "Feminina",
+            "type": "Casual",
+            "color": "Preta"
           }
       ]
     },
@@ -50,12 +58,14 @@
       "sku": "sku-13",
       "path": "calca-caminhada-masculina",
       "name": "Calça Caminhada Masculina",
-      "image": "media/pants-4.jpg",
+      "image": "https://i.imgur.com/BuxghL4.jpg",
       "price": 70.0,
       "specialPrice": 58,
       "filter": [
         {
-          "gender": "Masculina"
+          "gender": "Masculina",
+          "type": "Caminhada",
+          "color": "Preta"
         }
       ]
     },
@@ -64,11 +74,13 @@
       "sku": "sku-14",
       "path": "calca-caminhada-feminina",
       "name": "Calça Caminhada Feminina",
-      "image": "media/pants-5.jpg",
+      "image": "https://i.imgur.com/iWFzRHS.jpg",
       "price": 70.0,
       "filter": [
         {
-          "gender": "Feminina"
+          "gender": "Feminina",
+          "type": "Caminhada",
+          "color": "Preta"
         }
       ]
     }
